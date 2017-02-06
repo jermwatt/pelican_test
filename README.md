@@ -1,39 +1,44 @@
-
-
-```python
-%matplotlib inline
-import matplotlib.pyplot as plt
-import numpy as np
-from IPython.html import widgets
-
-t = np.arange(0.0, 1.0, 0.01)
-
-        
-def pltsin(f):
-    fig = plt.figure(num=None, figsize=(12,4), dpi=80, facecolor='w', edgecolor='k')
-    a = plt.subplot(131)
-    a.plot(t,np.sin(2*np.pi*t*f))
-    a.figsize = (3,3)
-    a.axis('off')
-    
-    a = plt.subplot(132)
-    a.plot(t,np.cos(2*np.pi*t*f))
-    a.figsize = (3,3)
-    a.axis('off')
-
-    a = plt.subplot(133)
-    a.plot(t,np.sin(np.cos(2*np.pi*t*f)))
-    a.figsize = (3,3)
-    a.axis('off')
-
-widgets.interact(pltsin, f=(1,10,1));
-```
-
-
-![png](Untitled_files/Untitled_0_0.png)
-
-
-
-```python
-
-```
+<script src="https://npmcdn.com/jupyter-js-widgets@~1.2.0/dist/embed.js"></script><script type="application/vnd.jupyter-embedded-widgets">{
+    "585c050e89424d13807b3aed0f327b0a": {
+        "model_name": "LayoutModel",
+        "model_module": "jupyter-js-widgets",
+        "state": {},
+        "views": []
+    },
+    "870b5d01ac564b879f82a648327396cd": {
+        "model_name": "BoxModel",
+        "model_module": "jupyter-js-widgets",
+        "state": {
+            "children": [
+                "IPY_MODEL_e823e33a697d4d86b4a7e1fa5bf102bf"
+            ],
+            "layout": "IPY_MODEL_585c050e89424d13807b3aed0f327b0a",
+            "_dom_classes": [
+                "widget-interact"
+            ]
+        },
+        "views": [
+            {
+                "cell_index": 0
+            }
+        ]
+    },
+    "161ff38a097d4b9aba7ba4777a046824": {
+        "model_name": "LayoutModel",
+        "model_module": "jupyter-js-widgets",
+        "state": {},
+        "views": []
+    },
+    "e823e33a697d4d86b4a7e1fa5bf102bf": {
+        "model_name": "IntSliderModel",
+        "model_module": "jupyter-js-widgets",
+        "state": {
+            "layout": "IPY_MODEL_161ff38a097d4b9aba7ba4777a046824",
+            "min": 1,
+            "description": "f",
+            "max": 10,
+            "value": 5
+        },
+        "views": []
+    }
+}</script>
