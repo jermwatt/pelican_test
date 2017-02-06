@@ -55,11 +55,7 @@
                 "widget-interact"
             ]
         },
-        "views": [
-            {
-                "cell_index": 0
-            }
-        ]
+        "views": []
     },
     "923e516421f841288e9928ce8a9241af": {
         "model_name": "LayoutModel",
@@ -75,7 +71,49 @@
             "min": 1,
             "description": "f",
             "max": 10,
-            "value": 5
+            "value": 6
+        },
+        "views": []
+    },
+    "a6eed007aa80435b8e980b3237c46543": {
+        "model_name": "LayoutModel",
+        "model_module": "jupyter-js-widgets",
+        "state": {},
+        "views": []
+    },
+    "b932725e312b4738990135f4c8c3dc98": {
+        "model_name": "BoxModel",
+        "model_module": "jupyter-js-widgets",
+        "state": {
+            "children": [
+                "IPY_MODEL_f13d00b5b1ae4bb29c840c0d503df15d"
+            ],
+            "layout": "IPY_MODEL_a6eed007aa80435b8e980b3237c46543",
+            "_dom_classes": [
+                "widget-interact"
+            ]
+        },
+        "views": [
+            {
+                "cell_index": 0
+            }
+        ]
+    },
+    "45d0d3775c634176bcb0db2f908fc4cb": {
+        "model_name": "LayoutModel",
+        "model_module": "jupyter-js-widgets",
+        "state": {},
+        "views": []
+    },
+    "f13d00b5b1ae4bb29c840c0d503df15d": {
+        "model_name": "IntSliderModel",
+        "model_module": "jupyter-js-widgets",
+        "state": {
+            "layout": "IPY_MODEL_45d0d3775c634176bcb0db2f908fc4cb",
+            "min": 1,
+            "description": "f",
+            "max": 10,
+            "value": 8
         },
         "views": []
     }
