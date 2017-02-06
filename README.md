@@ -28,3 +28,12 @@ def pltsin(f):
 
 widgets.interact(pltsin, f=(1,10,1));
 ```
+
+
+![png](Untitled_files/Untitled_0_0.png)
+
+
+
+```python
+
+```
