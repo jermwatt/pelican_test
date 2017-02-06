@@ -1,4 +1,4 @@
-<script src="https://npmcdn.com/jupyter-js-widgets@~1.2.0/dist/embed.js"></script><script type="application/vnd.jupyter-embedded-widgets">{
+{
     "585c050e89424d13807b3aed0f327b0a": {
         "model_name": "LayoutModel",
         "model_module": "jupyter-js-widgets",
@@ -117,4 +117,4 @@
         },
         "views": []
     }
-}</script>
+}
